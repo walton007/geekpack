@@ -1,0 +1,48 @@
+{
+  "name": "@ali/geekpack",
+  "version": "0.3.3",
+  "description": "geekpack app generator",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint bin test",
+    "start": "node bin/geekpack.js"
+  },
+  "preferGlobal": true,
+  "files": [
+    "template",
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "geekpack": "bin/geekpack.js"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "colors": "~1.1.2",
+    "commander": "~2.9.0",
+    "fs-extra": "~0.26.2"
+  },
+  "devDependencies": {
+
+  },
+  "frontend": {
+    "name": "YOUR PROJECT NAME",
+    "stylesheets": "template/src/styles",
+    "javascripts": "template/src"
+  },
+  "homepage": "http://gitlab.alibaba-inc.com/waltongroup/geekpack",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:waltongroup/geekpack.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "keywords": [
+    "geekpack"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "仟仁 <wangren.wr@alibaba-inc.com>"
+}

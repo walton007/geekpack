@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+build
+npm-debug.log
+
+_temp
+nginxPublic
+forever.log
