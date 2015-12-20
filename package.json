@@ -1,5 +1,5 @@
 {
-  "name": "@walton007/geekpack",
+  "name": "geekpack",
   "version": "0.3.3",
   "description": "geekpack app generator",
   "main": "index.js",
