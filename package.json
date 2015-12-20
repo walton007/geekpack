@@ -1,5 +1,5 @@
 {
-  "name": "@ali/geekpack",
+  "name": "@walton007/geekpack",
   "version": "0.3.3",
   "description": "geekpack app generator",
   "main": "index.js",
@@ -30,10 +30,10 @@
     "stylesheets": "template/src/styles",
     "javascripts": "template/src"
   },
-  "homepage": "http://gitlab.alibaba-inc.com/waltongroup/geekpack",
+  "homepage": "https://github.com/walton007/geekpack.git",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:waltongroup/geekpack.git"
+    "url": "git@github.com:walton007/geekpack.git"
   },
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
