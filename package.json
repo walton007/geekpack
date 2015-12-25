@@ -36,7 +36,7 @@
     "url": "git@github.com:walton007/geekpack.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
+    "registry": "http://registry.npm.org"
   },
   "keywords": [
     "geekpack"
@@ -44,5 +44,5 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "仟仁 <wangren.wr@alibaba-inc.com>"
+  "author": "王任 <82076408@qq.com>"
 }
